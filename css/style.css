@@ -957,7 +957,7 @@ button[type="button"] {
   .titulo-1 h1,
   .titulo-2 h1 {
     color: #ec2028;
-    font-size: 4.5em;
+    font-size: 4em;
     font-weight: bold;
   }
 
@@ -987,6 +987,7 @@ button[type="button"] {
     height: auto;
     flex-direction: column;
     align-content: center;
+    align-items: center;
   }
 
   .infoOne,
@@ -994,6 +995,7 @@ button[type="button"] {
   .infoThree {
     margin-bottom: 20px;
     margin-right: 0px;
+    width: 350px;
   }
 
   .form-after-products h3 {
@@ -1009,7 +1011,7 @@ button[type="button"] {
   }
 
   #email-products {
-    width: 400px;
+    width: 350px;
     margin-bottom: 10px;
   }
   .input-products button[type="button"] {
