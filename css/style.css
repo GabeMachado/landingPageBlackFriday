@@ -978,6 +978,7 @@ button[type="button"] {
 
   .container-infos {
     display: flex;
+    flex-direction: column;
     justify-content: center;
   }
 
@@ -985,12 +986,14 @@ button[type="button"] {
     width: auto;
     height: auto;
     flex-direction: column;
+    align-content: center;
   }
 
   .infoOne,
   .infoTwo,
   .infoThree {
     margin-bottom: 20px;
+    margin-right: 0px;
   }
 
   .form-after-products h3 {
