@@ -972,7 +972,7 @@ button[type="button"] {
   }
 
   .title-callOne h1 {
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 100px;
   }
 
@@ -996,6 +996,21 @@ button[type="button"] {
     margin-bottom: 20px;
     margin-right: 0px;
     width: 350px;
+    height: 400px;
+  }
+
+  .img-info i {
+    font-size: 130px;
+  }
+
+  .infoOne h1,
+  .infoTwo h1,
+  .infoThree h1 {
+    font-size: 30px;
+  }
+
+  .img-description p {
+    font-size: 18px;
   }
 
   .form-after-products h3 {
@@ -1023,7 +1038,7 @@ button[type="button"] {
   }
 
   .titulo-footer h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 
   .description-form {
@@ -1039,6 +1054,10 @@ button[type="button"] {
 
   .description {
     text-align: center;
+  }
+
+  .number-tel p {
+    color: #fff;
   }
 
   #email-footer {
@@ -1070,5 +1089,47 @@ button[type="button"] {
 
   .btn-cadastrar {
     margin-top: 20px;
+  }
+
+  .subtitulo h2 {
+    margin-top: 80px;
+    font-size: 1.7em;
+  }
+
+  .titulo-1 h1,
+  .titulo-2 h1 {
+    color: #ec2028;
+    font-size: 3em;
+    font-weight: bold;
+  }
+
+  .form {
+    margin-top: 100px;
+    width: 300px;
+    height: 400px;
+  }
+
+  .titulo-form h3 {
+    font-size: 30px;
+    padding: 20px 20px 20px 20px;
+  }
+
+  #email {
+    width: 250px;
+    height: 60px;
+  }
+
+  .checkbox {
+    margin-top: 26px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .checkbox-texto p {
+    font-size: 14px;
+  }
+
+  button[type="button"] {
+    width: 250px;
   }
 }
